@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style></style>
+    <title>Document</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="head">
+        <h2>Smart Cities</h2>
+    </header>
+
+    <div class="tela-inteira">
+        <div class="Cadastrar-esquerda">
+
+            <div class="cadastro-grupo">
+                <div class="cadastro">
+
+                    <h2>Cadastro</h2>
+                    <input placeholder="nome" class="entrada" id="entrada-nome" type="text">
+
+                    <input placeholder="descrição" class="entrada1" id="entrada-descricao" type="text">
+                    <span>impacto</span>
+
+                </div>
+
+            </div>
+
+            <div class="grupo-de-botoes">
+
+
+                <div class="d-grid gap-2 d-md-block fileira-botoes">
+                    <button class="btn btn-primary" id='mobilidade' type="button">mobilidade</button>
+                    <button class="btn btn-primary" id='acessibilidade' type="button">acessibilidade</button>
+                </div>
+
+
+
+                <div class="d-grid gap-2 d-md-block fileira-botoes">
+                    <button class="btn btn-primary" id='meio-ambiente' type="button">meio ambiente</button>
+                    <button class="btn btn-primary" id='qualidade-vida' type="button">qualidade de vida</button>
+                </div>
+
+
+
+                <div class="d-grid gap-2 d-md-block fileira-botoes">
+                    <button class="btn btn-primary" id='gestao-publica' type="button">gestão publica</button>
+                    <button class="btn btn-primary" id='eficiencia' type="button">eficiencia</button>
+                </div>
+
+
+            </div>
+
+
+            <div class="grupo-botoes-enviar">
+
+                <div class="d-grid gap-2 d-md-block">
+                    <button class="btn btn-primary" id="enviar" type="button">enviar</button>
+                    <button class="btn btn-primary" id="limpar" type="button">limpar</button>
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+        <div class="resultado-direita">
+
+            <h2 class="recurso">recursos</h2>
+
+            <div id="cards-resultado">
+
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>

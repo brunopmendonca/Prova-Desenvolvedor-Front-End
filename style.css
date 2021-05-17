@@ -1,0 +1,73 @@
+.tela-inteira{
+    display: flex;
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+}
+
+
+.Cadastrar-esquerda{
+    width: 50%;
+    
+}
+
+.resultado-direita{
+    width: 50%;
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    padding: 100px 40px 10px 40px; 
+
+    
+    
+}
+
+
+
+.cadastro-grupo{
+    display: flex;
+        
+}
+
+.cadastro{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    padding: 100px 40px 10px 40px; 
+    
+}
+
+.botao{
+    margin-top: 10px;
+}
+
+.entrada{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.entrada1{
+    margin-bottom: 15px;
+}
+
+.grupo-de-botoes{
+    margin-top: 20px;
+    padding: 10px 40px 30px 40px;
+
+}
+
+.grupo-botoes-enviar{
+    margin-top: 20px;
+    padding: 0px 40px 10px 40px;
+
+}
+
+.recurso{
+    margin: 0 auto;
+}
+
+.fileira-botoes{
+   margin-bottom: 20px;
+}
